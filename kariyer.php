@@ -5,7 +5,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<link href="CSS.css" media="all" rel="Stylesheet" type="text/css" />
+<link href="CSSS.css" media="all" rel="Stylesheet" type="text/css" />
 <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
 </head>
 <body>
@@ -50,23 +50,48 @@
 <form id= "main-wrapper" >
 
     <h2>Kariyer Testi</h2>
-    <h4>Acedamic percentage in Operating Systems: <input style="float: right "class="user-input" type="int" name="user-name" placeholder="Grade 0-100">
+    <h4>Cinsiyetiniz: <select size="3" style="float: right" class="user-input2" >  <!-- Note: I've removed the 'multiple' attribute -->
+        <option>Kadın </option>
+        <option>Erkek</option>
+        <option>Diğer</option>
+        </select>
     </h4> 
-    <h4>Acedamic percentage in Algorithms: <input style="float: right "class="user-input" type="int" name="user-name" placeholder="Grade 0-100">
+    <h4>Üniversite Bölümünüz: <select size="3" style="float: right" class="user-input2" >  <!-- Note: I've removed the 'multiple' attribute -->
+        <option>Bilim ve Teknoloji </option>
+        <option>İşletme</option>
+        </select>
     </h4> 
-    <h4>Acedamic percentage in Programming Concepts: <input style="float: right "class="user-input" type="int" name="user-name" placeholder="Grade 0-100">
+     <h4>İş Deneyiminiz Var mı:<select size="3" style="float: right" class="user-input2" >  <!-- Note: I've removed the 'multiple' attribute -->
+        <option>Evet </option>
+        <option>Hayır</option>
+        </select>
+    </h4>  
+    <h4>Uzmanlık Alanınız:<select size="3" style="float: right" class="user-input2" >  <!-- Note: I've removed the 'multiple' attribute -->
+        <option>Pazarlama ve İnsan Kaynakları</option>
+        <option>Pazarlama ve Finans</option>
+        </select>
     </h4> 
-    <h4>Acedamic percentage in Software Engineering: <input style="float: right "class="user-input" type="int" name="user-name" placeholder="Grade 0-100">
+    <h4>ALES Bölümünüz:
+    <select size="3" style="float: right" class="user-input2" >  <!-- Note: I've removed the 'multiple' attribute -->
+        <option>Ticaret </option>
+        <option>Temel Bilimler</option>
+        <option>Sanat</option>
+        </select>
     </h4> 
-    <h4>Acedamic percentage in Computer Networks:<input style="float: right "class="user-input" type="int" name="user-name" placeholder="Grade 0-100">
+    <h4>KPSS Puanınız: <input style="float: right "class="user-input" type="int" name="user-name" placeholder="Grade 0-100">
     </h4> 
-    <h4>Acedamic percentage in Computer Architecture: <input style="float: right "class="user-input" type="int" name="user-name" placeholder="Grade 0-100">
+    <h4>ALES Puanınız: <input style="float: right "class="user-input" type="int" name="user-name" placeholder="Grade 0-100">
     </h4> 
-    <h4>Acedamic percentage in Electronics Subjects:<input style="float: right " class="user-input" type="int" name="user-name" placeholder="Grade 0-100">
+    
+    
+    
+    <h4>Üniversite Mezuniyet Puanınız:<input style="float: right "class="user-input" type="int" name="user-name" placeholder="Grade 0-100">
     </h4> 
-    <h4>Acedamic percentage in Mathematics:<input style="float: right " class="user-input" type="int" name="user-name" placeholder="Grade 0-100">
-    </h4> 
-    <h4>Acedamic percentage in Communication skills: 
+    
+   
+    
+
+    <h4>MBA Puanınız: 
     <input class="user-input" type="int" style="float: right " name="user-name" placeholder="Grade 0-100">
     </h4> 
     
